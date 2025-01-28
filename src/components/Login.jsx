@@ -18,7 +18,7 @@ export const Login = () => {
       storedUser.username === username &&
       storedUser.password === password
     ) {
-      alert("Login successful!");
+      alert("Login successful!!");
       navigate("/cuisine"); // Redirect to the home page
     } else {
       alert("Invalid username or password. Please try again.");
